@@ -1,0 +1,17 @@
+##问题：我可以使用什么程序来反编译类文件？我真的会获得Java代码，还是仅仅是JVM汇编代码？
+
+## www.javadecompilers.com将JAD列为：
+最流行的Java反编译器，但主要是那个时代。用C++编写，非常快。
+但是已经过时，不受支持且无法正确反编译Java 5及更高版本
+
+##Java Decompiler（又一个快速Java反编译器）具有：
+
+显式支持反编译和分析Java 5+ “.class”文件。
+一个很好的GUI：
+它适用于从JDK 1.1.8到JDK 1.7.0以及其他（Jikes，JRockit等）的编译器。
+
+它具有在线实时演示版本，实际上功能齐全！你可以在页面上删除一个jar文件，看看反编译的源代码而不安装任何东西。
+
+##你还可以使用IDEA自带的反编译功能，但是其实所有的反编译工具都会与原Java代码有所不同，会自动进行优化
+
+stackoverflow链接https://stackoverflow.com/questions/272535/how-do-i-decompile-java-class-files
